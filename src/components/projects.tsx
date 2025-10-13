@@ -34,7 +34,7 @@ export default function Projects() {
         "A complete barber shop management platform for handling appointments, staff schedules, customer records, and service billing with a clean dashboard UI.",
       images: [barber],
       sourceCode: "https://github.com/roshan-thapa-magar/barber-shop",
-      liveDemo: "https://rojan-three.vercel.app/",
+      liveDemo: "https://rojan-three.onrender.com/",
     },
   ];
 
