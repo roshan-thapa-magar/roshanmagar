@@ -5,6 +5,7 @@ import Image, { StaticImageData } from "next/image";
 import { Card } from "@/components/ui/card";
 import food from "../../assets/images/food.png";
 import barber from "../../assets/images/image.png";
+import kyirmu from "../../assets/images/kyirmu1.png";
 
 interface Project {
   id: number;
@@ -35,6 +36,15 @@ export default function Projects() {
       images: [barber],
       sourceCode: "https://github.com/roshan-thapa-magar/barber-shop",
       liveDemo: "https://rojan-three.onrender.com/",
+    },
+     {
+      id: 3,
+      name: "Cloud of Kyirmu",
+      description:
+        "Enjoy fresh coffee, organic foods, and a healthy lifestyle experience.",
+      images: [kyirmu],
+      sourceCode: "/",
+      liveDemo: "https://foodie-xmry.onrender.com",
     },
   ];
 
