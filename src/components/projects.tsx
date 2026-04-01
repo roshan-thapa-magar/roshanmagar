@@ -5,7 +5,7 @@ import Image, { StaticImageData } from "next/image";
 import { Card } from "@/components/ui/card";
 import food from "../../assets/images/food.png";
 import barber from "../../assets/images/image.png";
-import kyirmu from "../../assets/images/kyirmu1.png";
+import kyirmu from "../../assets/images/123.png";
 
 interface Project {
   id: number;
@@ -44,7 +44,7 @@ export default function Projects() {
         "Enjoy fresh coffee, organic foods, and a healthy lifestyle experience.",
       images: [kyirmu],
       sourceCode: "/",
-      liveDemo: "https://foodie-xmry.onrender.com",
+      liveDemo: "https://cloud-by-kyirmu.vercel.app",
     },
   ];
 
